@@ -1,0 +1,42 @@
+.layout {
+    height: 100%;
+    border: 1px solid #800000;
+    background-color: #ffcccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.layout > .meetingsCards {
+    text-align: left;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    overflow: auto;
+    margin: 10px;
+}
+
+.meetingsCards > p {
+    text-align: center;
+    padding: 10px;
+}
+
+.layout table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.layout input, .layout textarea {
+    width: 300px;
+    font-size: x-large;
+    border: 1px solid black;
+    /* padding: 10px; */
+    /* padding-left: 100px; */
+    margin: 10px;
+}
+
+.layout textarea {
+    height: 50px;
+}
